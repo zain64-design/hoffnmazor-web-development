@@ -6,7 +6,7 @@ const Cta1 = ({subtitle,title,content,btnurl1,btnurl2,img}) => {
         <section className="cta-section">
             <div className="cta-container-wrapper style1">
                 <div className="container">
-                    <div className="cta-wrapper style1  section-padding fix">
+                    <div className="cta-wrapper style1 py-5 fix">
                         <div className="shape1 d-none d-xxl-block"><Image src="/assets/images/shape/ctaShape1_1.png" alt="img" width={373} height={147}   />
                         </div>
                         <div className="shape2 d-none d-xxl-block"><Image src="/assets/images/shape/ctaShape1_22.png" alt="img" width={228} height={143}   />
@@ -35,7 +35,7 @@ const Cta1 = ({subtitle,title,content,btnurl1,btnurl2,img}) => {
                                 </div>
                                 <div className="col-xl-4 order-1 order-xl-2">
                                     <div className="cta-thumb wow fadeInUp" data-wow-delay=".2s">
-                                    <Image src={img} alt="img" width={643} height={322}   />
+                                    <Image src={img} alt="img" width={400} height={402}   />
                                     </div>
                                 </div>
                             </div>

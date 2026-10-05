@@ -98,7 +98,7 @@ const ContactInfo = () => {
             <div className="contact-form-wrapper style1">
                 <div className="row gy-5 gx-60">
                     <div className="col-xl-6">
-                        <div className="contactImg"><Image src="/assets/images/about/contact.webp" className='img-fluid thumb' alt="img" width={900} height={735}   /></div>
+                        <div className="contactImg"><Image src="/assets/images/about/contact.png" className='img-fluid thumb' alt="img" width={900} height={735}   /></div>
                     </div>
                     <div className="col-xl-6">
                         <div className="contact-form style1">

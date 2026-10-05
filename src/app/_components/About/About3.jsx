@@ -5,7 +5,7 @@ const About3 = ({img1,subtitle,title,content,boxtitle1,boxcontent1,boxtitle2,box
         <section className="what-we-do-section fix section-padding">
         <div className="container mxw-1450">
             <div className="what-we-wrapper">
-                <div className="row g-4">
+                <div className="row g-4 align-items-center">
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                         <div className="thumb">
                             <Image src={img1} alt="img" width={701} height={539}   />

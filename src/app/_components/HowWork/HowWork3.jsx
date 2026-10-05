@@ -13,7 +13,7 @@ const HowWork3 = () => {
                     ></SectionTitle>
              </div>
              <div className="how-work-wrapper">
-                <div className="row g-4">
+                <div className="row g-4 align-items-center">
                      <div className="col-lg-8">
                          <div className="how-work-content">
                              <p className="text wow fadeInUp">
@@ -41,7 +41,7 @@ const HowWork3 = () => {
                      </div>
                      <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                          <div className="gap-image">
-                         <Image src="/assets/images/gap.png" alt="img" width={376} height={431}   />
+                         <Image src="/assets/images/gap.png" alt="img" width={376} height={269}   />
                          </div>
                      </div>
                 </div>

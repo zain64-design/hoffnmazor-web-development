@@ -7,7 +7,7 @@ const Choose3 = () => {
         <div className="wcu-container-wrapper style3">
             <div className="container">
                 <div className="wcu-wrapper style3">
-                    <div className="row gy-5 gx-60">
+                    <div className="row gy-5 align-items-center">
                         <div className="col-xl-6">
                             <div className="wcu-content">
                                 <div className="section-title">
@@ -57,21 +57,7 @@ const Choose3 = () => {
                         <div className="col-xl-6">
                             <div className="wcu-thumb">
                                 <div className="main-thumb img-custom-anim-left wow fadeInUp" data-wow-delay=".4s">
-                                <Image src="/assets/images/wcu/wcuThumb3_1.png" alt="img" width={386} height={503}   />
-                                </div>
-                                <div className="thumb2">
-                                <Image src="/assets/images/wcu/wcuThumb3_2.png" alt="img" width={558} height={340}   />
-                                </div>
-                                <div className="thumb-box float-bob-y wow fadeInUp" data-wow-delay=".4s">
-                                    <h5>Traffic Growth</h5>
-                                    <p className="text">Total traffic growth of 45%</p>
-                                    <div className="shape-box">
-                                    <Image src="/assets/images/shape/wcuThumbShape3_1.png" alt="img" width={128} height={128}   />
-                                        <div className="shape-content">
-                                            <h6>Transaction</h6>
-                                            <h3>86%</h3>
-                                        </div>
-                                    </div>
+                                <Image src="/assets/images/wcu/wcuThumb3_1.png" alt="img"width={500} height={500}   />
                                 </div>
                             </div>
                         </div>

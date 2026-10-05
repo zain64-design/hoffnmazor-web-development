@@ -62,9 +62,9 @@ const HeroBanner3 = ({bgimg,subtitle,title,content,btnname,btnurl,btnname2,btnur
                 </div>
                 <div className="col-xxl-4 col-xl-6 wow fadeInUp" data-wow-delay=".3s">
                     <div className="hero-image">
-                    <Image src={img1} alt="img" width={754} height={658}   />
+                    <Image src={img1} alt="img" className="img-fluid" width={754} height={658}   />
                         <div className="mobile-image">
-                        <Image src={img2} alt="img" width={180} height={363}   />
+                        <Image src={img2} alt="img" className="img-fluid" width={180} height={363}   />
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ const page = () => {
     return (
         <div>
             <HeroBanner3
-                bgimg="/assets/images/hero/hero-bg.jpg"
+                bgimg="/assets/images/hero/hero-bg.png"
                 subtitle="Web Development Experts"
                 title="We Build Fast, Modern Websites That <span>Grow Your Business</span>"
                 content="Hoffnmazor designs and develops high-performance websites and web applications for startups and growing businesses. From the first idea to the final launch, our team handles everything."
