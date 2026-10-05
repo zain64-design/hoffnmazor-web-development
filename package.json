@@ -1,0 +1,35 @@
+{
+  "name": "niotech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@intl-tel-input/react": "^29.5.3",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "formik": "^2.4.9",
+    "html-react-parser": "^5.2.2",
+    "intl-tel-input": "^29.5.3",
+    "next": "^16.3.8",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^19.0.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "^15.5.27"
+  },
+  "allowScripts": {
+    "sharp@0.33.5": true,
+    "unrs-resolver@1.12.2": true
+  }
+}
