@@ -27,7 +27,7 @@ const page = () => {
                 img1="/assets/images/hero/01.png"
                 img2="/assets/images/hero/mobile.png"
             />
-                        <About3
+            <About3
                 img1="/assets/images/what-do.png"
                 subtitle="What We Do"
                 title="One Team For All Your Web Development Needs"
@@ -37,8 +37,8 @@ const page = () => {
                 boxtitle2="Design That Converts"
                 boxcontent2="Layouts built around your customers, with clear calls to action that turn visitors into leads."
             />
-                        <Brand3/>
-                        <Choose3/>
+            <Brand3 />
+            <Choose3 />
             <Feature4
                 img="/assets/images/about/01.png"
                 subtitle="Why Choose Us"
@@ -49,14 +49,14 @@ const page = () => {
                     "<b>Secure & Reliable :</b> <span> Built with security best practices and tested before launch.</span>",
                     "<b>Fast Support :</b> <span> Quick replies and help whenever you need it.</span>",
                     "<b>Built To Scale :</b> <span>  Easy to grow as your business grows.</span>",
-                ]} 
+                ]}
                 btnname="Get A Quote"
                 btnurl="/"
-            />  
-            <Feature5/>
-            <Feature6/>
-            <HowWork3/>
-                        <Testimonial />
+            />
+            <Feature5 />
+            <Feature6 />
+            <HowWork3 />
+            <Testimonial />
             <Faq1 />
             <Cta1
                 subtitle="Let's Talk"
@@ -66,7 +66,7 @@ const page = () => {
                 btnurl2=""
                 img="/assets/images/cta/ctaThumb1_1.png"
             />
-            <ContactInfo />                            
+            <ContactInfo />
         </div>
     );
 };
