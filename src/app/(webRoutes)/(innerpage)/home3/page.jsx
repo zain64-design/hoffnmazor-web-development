@@ -1,62 +1,64 @@
 import React from 'react';
-import HeroBanner3 from '@/app/_components/HeroBanner/HeroBanner3';
-import Feature4 from '@/app/_components/Feature/Feature4';
-import Feature5 from '@/app/_components/Feature/Feature5';
-import Feature6 from '@/app/_components/Feature/Feature6';
-import HowWork3 from '@/app/_components/HowWork/HowWork3';
-import About3 from '@/app/_components/About/About3';
-import Testimonial from '@/app/_components/Testimonial/Testimonial';
-import Cta1 from '@/app/_components/Cta/Cta1';
-import ContactInfo from '@/app/_components/ContactInfo/ContactInfo';
+import HeroBanner1 from '@/app/_components/HeroBanner/HeroBanner1';
+import About1 from '@/app/_components/About/About1';
+import HowWork from '@/app/_components/HowWork/HowWork';
+import Choose1 from '@/app/_components/Choose/Choose1';
+import Feature1 from '@/app/_components/Feature/Feature1';
 import Faq1 from '@/app/_components/Faq/Faq1';
-import Brand3 from '@/app/_components/Brand/Brand3';
-import Choose3 from '@/app/_components/Choose/Choose3';
+import Testimonial from '@/app/_components/Testimonial/Testimonial';
+import ContactInfo from '@/app/_components/ContactInfo/ContactInfo';;
+import Cta1 from '@/app/_components/Cta/Cta1';
 
 const page = () => {
     return (
         <div>
-            <HeroBanner3
-                bgimg="/assets/images/hero/hero-bg.jpg"
-                subtitle="Web Development Experts"
-                title="We Build Fast, Modern Websites That <span>Grow Your Business</span>"
-                content="Hoffnmazor designs and develops high-performance websites and web applications for startups and growing businesses. From the first idea to the final launch, our team handles everything."
+            <HeroBanner1
+                subtitle="<span>New!</span>Get Your App Built"
+                title="We Build Mobile Apps That Your Customers Love"
+                content="Hoffnmazor designs and develops fast, secure and beautifully crafted iOS and Android apps for startups and growing businesses. From the first idea to the App Store launch, our team handles everything."
                 btnname="Talk To An Expert"
-                btnurl="/"
-                btnname2="Get A Quote"
-                btnurl2="/"
-                img1="/assets/images/hero/01.png"
-                img2="/assets/images/hero/mobile.png"
+                btnurl="/contact"
+                btntwo="Get A Quote"
+                btn2url="/about"
+                cusimg="/assets/images/intro/introProfileThumb1_1.png"
+                cusnumber="2,291"
+                cuscontent="Happy Customers"
+                rating="4.8/5"
+                ratingcon="Rating"
+                img="/assets/images/intro/introThumb1_1.png"
             />
-                        <About3
-                img1="/assets/images/what-do.png"
-                subtitle="What We Do"
-                title="One Team For All Your Web Development Needs"
-                content="From simple business websites to complex web platforms, we combine design, development and optimization so you get one reliable team instead of many."
-                boxtitle1="Experienced Developers"
-                boxcontent1="Skilled developers who write clean, scalable code and follow modern best practices."
-                boxtitle2="Design That Converts"
-                boxcontent2="Layouts built around your customers, with clear calls to action that turn visitors into leads."
-            />
-                        <Brand3/>
-                        <Choose3/>
-            <Feature4
-                img="/assets/images/about/01.png"
-                subtitle="Why Choose Us"
-                title="We Deliver Quality You Can Measure"
-                content="Every project goes through planning, design, testing and optimization, so your website is ready for real traffic from day one."
+            <About1
+                img1="/assets/images/about/aboutThumb1_1.png"
+                img2="/assets/images/about/aboutThumb1_2.png"
+                subtitle="About Hoffnmazor"
+                title="One Team For Your Entire App Journey"
+                content="We combine strategy, design and engineering to turn your idea into a reliable mobile product. You get clear communication, transparent timelines and an app built to grow with your business."
                 FeatureList={[
-                    "<b>Mobile-First Design :</b> <span>Looks and works great on every screen size.</span>",
-                    "<b>Secure & Reliable :</b> <span> Built with security best practices and tested before launch.</span>",
-                    "<b>Fast Support :</b> <span> Quick replies and help whenever you need it.</span>",
-                    "<b>Built To Scale :</b> <span>  Easy to grow as your business grows.</span>",
-                ]} 
-                btnname="Learn More"
-                btnurl="/about"
-            />  
-            <Feature5/>
-            <Feature6/>
-            <HowWork3/>
-                        <Testimonial />
+                    "Native and cross-platform development (iOS and Android)",
+                    "Trusted by startups and businesses worldwide",
+                    "Free consultation and project estimate",
+                ]}
+                btnname="Book Consultation"
+                btnurl="/"
+            />
+            <HowWork />
+            <Choose1
+                subtitle="Why Choose Us"
+                title="Get Ahead With A High-Performance Mobile App"
+                content="A well-built app keeps your customers engaged, builds trust in your brand and opens a new sales channel. We focus on speed, usability and security so your app performs from day one."
+                FeatureList={[
+                    "Friendly Design",
+                    "Performance Optimized",
+                ]}
+                FeatureList2={[
+                    "Cloud Storage",
+                    "Strong Security",
+                ]}
+                btnname="Get A Quote"
+                btnurl="/"
+            />
+            <Feature1 />
+            <Testimonial />
             <Faq1 />
             <Cta1
                 subtitle="Let's Talk"
@@ -66,7 +68,7 @@ const page = () => {
                 btnurl2=""
                 img="/assets/images/cta/ctaThumb1_1.png"
             />
-            <ContactInfo />                            
+            <ContactInfo />
         </div>
     );
 };
