@@ -72,9 +72,9 @@ const Faq1 = () => {
                         <div className="col-xl-6">
                             <div className="faq-thumb">
                             <Image className="main-thumb  wow fadeInUp" src={FaqContent.img1} alt="img" width={791} height={679}   />                              
-                                <div className="absolute-thumb float-bob-x">
+                                {/* <div className="absolute-thumb float-bob-x">
                                 <Image src={FaqContent.img2} alt="img" width={236} height={474}   /> 
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

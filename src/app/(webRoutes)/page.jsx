@@ -28,7 +28,7 @@ const page = () => {
                 img2="/assets/images/hero/mobile.png"
             />
             <About3
-                img1="/assets/images/what-do.png"
+                img1="/assets/images/what-we-do.png"
                 subtitle="What We Do"
                 title="One Team For All Your Web Development Needs"
                 content="From simple business websites to complex web platforms, we combine design, development and optimization so you get one reliable team instead of many."

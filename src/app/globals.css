@@ -6972,7 +6972,6 @@ input.main-search-input::placeholder {
   position: relative;
   object-fit: contain;
   z-index: 1;
-  margin-left: 150px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
